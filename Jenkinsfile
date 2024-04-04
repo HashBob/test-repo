@@ -3,9 +3,9 @@ pipeline {
 
     agent { label 'win-agent1'}
 
-    // environment {
-    //     DB_PASSWORD = credentials('72ba35cd-fbbd-4bf7-830a-d1d520bf1580')
-    // }
+    environment {
+        DB_PASSWORD = credentials('72ba35cd-fbbd-4bf7-830a-d1d520bf1580')
+    }
 
     stages {
         stage('Build git maven repo') {

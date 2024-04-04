@@ -4,7 +4,7 @@ pipeline {
     agent { label 'win-agent1'}
 
     environment {
-        DB_PASSWORD = credentials('e9dd6f9f-bbc9-46cb-86da-0efb59228e3e')
+        DB_PASSWORD = credentials('72ba35cd-fbbd-4bf7-830a-d1d520bf1580')
     }
 
     stages {

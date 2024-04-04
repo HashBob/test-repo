@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  backend:
+    image: backend-image
+    ports:
+      - "9095:9095"
+    networks:
+      - docker-demo-network
+
+networks:
+  docker-demo-network:
+    external: true

@@ -3,7 +3,7 @@ pipeline {
 
     agent { label 'win-agent1'}
 
-    environment:{
+    environment {
         DB_PASSWORD = credentails('e9dd6f9f-bbc9-46cb-86da-0efb59228e3e')
     }
 
